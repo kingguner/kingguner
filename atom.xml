@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>澜湖书生の博客</title>
+  <title>刘兆斌の博客</title>
   
-  <subtitle>澜湖书生</subtitle>
+  <subtitle>刘兆斌</subtitle>
   <link href="https://liuzhaobin.top/atom.xml" rel="self"/>
   
   <link href="https://liuzhaobin.top/"/>
@@ -10,7 +10,7 @@
   <id>https://liuzhaobin.top/</id>
   
   <author>
-    <name>澜湖书生</name>
+    <name>刘兆斌</name>
     
   </author>
   
