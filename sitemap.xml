@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://liuzhaobin.top/box/about/index.html</loc>
+    
+    <lastmod>2022-02-03</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liuzhaobin.top/box/index.html</loc>
+    
+    <lastmod>2022-02-03</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://liuzhaobin.top/navigation/index.html</loc>
     
     <lastmod>2022-02-03</lastmod>
@@ -137,14 +151,14 @@
 
   
   <url>
-    <loc>https://liuzhaobin.top/tags/Ubuntu/</loc>
+    <loc>https://liuzhaobin.top/tags/github/</loc>
     <lastmod>2022-02-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liuzhaobin.top/tags/github/</loc>
+    <loc>https://liuzhaobin.top/tags/Ubuntu/</loc>
     <lastmod>2022-02-03</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
