@@ -618,7 +618,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    332
+                    334
                 </div>
                 
 
@@ -640,6 +640,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -654,10 +657,10 @@
 <img src="https://raw.githubusercontent.com/tivenny/pic/master/3.png"/>
 
 <p>三.在hugo目录下进git,输入：</p>
-<pre><code>hugo new site blog
+<pre class="language-none"><code class="language-none">hugo new site blog
 </code></pre>
 <p>那么hugo目录下就有了一个blog的文件夹，blog文件夹下有了一个theme的文件夹，在theme文件夹下进git,从hugo官网下载主题，再把里面的exampleSite文件夹里的文件全部copy到blog的根目录下，那么就可以在本地访问网站了，输入：</p>
-<pre><code>hugo server --theme=主题名 --buildDrafts
+<pre class="language-none"><code class="language-none">hugo server --theme&#x3D;主题名 --buildDrafts
 </code></pre>
 <img src="https://raw.githubusercontent.com/tivenny/pic/master/4.png"/>
 
@@ -665,10 +668,10 @@
 
 
 <h2 id="部署网站到github上"><a href="#部署网站到github上" class="headerlink" title="部署网站到github上"></a>部署网站到github上</h2><p>四.对主题进行初始化</p>
-<pre><code>hugo --theme=主题名字
+<pre class="language-none"><code class="language-none">hugo --theme&#x3D;主题名字
 </code></pre>
 <p>这个时候在blog下面多出一个public的文件夹，进public用git打开，输入下面一串代码：</p>
-<pre><code>git init
+<pre class="language-none"><code class="language-none">git init
 git add . add后面有空格
 git commit -m &quot;first commit&quot;
 git remote add origin your repository name

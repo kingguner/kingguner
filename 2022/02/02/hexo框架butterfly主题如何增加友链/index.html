@@ -618,7 +618,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    190
+                    204
                 </div>
                 
 
@@ -640,6 +640,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -647,34 +650,35 @@
             <div id="articleContent">
                 <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>本周我将hexo框架主题由next转换成butterfly，增加友链和next主题还是有所不同的，方法如下：</p>
 <h2 id="增加友链的方法"><a href="#增加友链的方法" class="headerlink" title="增加友链的方法"></a>增加友链的方法</h2><p>在hexo根目录下新建一个_data文件夹，在其文件夹下建一个link.yml文档，所有的友链均在link.yml文档里，格式如下：</p>
-<pre><code>- class_name: 
+<pre class="language-none"><code class="language-none">- class_name: 
   class_desc:
   link_list:
     - name:  网站1         
-      link: https://www.xxxxxx.com/
+      link: https:&#x2F;&#x2F;www.xxxxxx.com&#x2F;
       avatar:    
       descr:                  
     - name: 网站2               
-      link: https://www.xxxxx.cn/
+      link: https:&#x2F;&#x2F;www.xxxxx.cn&#x2F;
       avatar:  
       descr:              
 
       for example:
     - name: 大学MOOC网
-      link: https://www.icourse163.org/
-      avatar: https://p.pstatp.com/origin/pgc-image/4b8bc0e4a4ac444f984ea95aa601d8a9
-      descr: 热爱分享 热爱学习   
-</code></pre>
+      link: https:&#x2F;&#x2F;www.icourse163.org&#x2F;
+      avatar: https:&#x2F;&#x2F;p.pstatp.com&#x2F;origin&#x2F;pgc-image&#x2F;4b8bc0e4a4ac444f984ea95aa601d8a9
+      descr: 热爱分享 热爱学习   </code></pre>
+
 <p>你会找到source/link/index.md这个文件<br>修改这个文件：</p>
-<pre><code>
+<pre class="language-none"><code class="language-none">
 title:友情链接
 date: 2018-06-07 22:17:49 
 type: &quot;link&quot; 
 comments: false
 </code></pre>
-<h2 id="把新建的网页上传、部署"><a href="#把新建的网页上传、部署" class="headerlink" title="把新建的网页上传、部署"></a>把新建的网页上传、部署</h2><pre><code>hexo g 
-hexo d
-</code></pre>
+
+
+<h2 id="把新建的网页上传、部署"><a href="#把新建的网页上传、部署" class="headerlink" title="把新建的网页上传、部署"></a>把新建的网页上传、部署</h2><pre class="language-none"><code class="language-none">hexo g 
+hexo d</code></pre>
 <h2 id="结束"><a href="#结束" class="headerlink" title="结束"></a>结束</h2>
                 
             </div>

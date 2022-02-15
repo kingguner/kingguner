@@ -618,7 +618,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    151
+                    152
                 </div>
                 
 
@@ -640,6 +640,9 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
@@ -647,22 +650,20 @@
             <div id="articleContent">
                 <p>hexo一直是不能进行后台管理的，但hexo有一个插件可以进行后台管理，那就是hexo-admin，下面来介绍它的安装和应用：</p>
 <p>一 安装</p>
-<pre><code>   npm install --save hexo-admin
-   
+<pre class="language-none"><code class="language-none">npm install --save hexo-admin
 </code></pre>
+
 <p>二 设置用户和用户密码<br>然后进入 <a target="_blank" rel="noopener" href="http://localhost:4000/admin,%E7%82%B9%E5%87%BBsetting%E8%BF%9B%E8%A1%8C%E7%94%A8%E6%88%B7%E5%90%8D%E5%92%8C%E7%94%A8%E6%88%B7%E5%AF%86%E7%A0%81%E8%AE%BE%E7%BD%AE%EF%BC%8C%E7%9C%8B%E5%88%B0">http://localhost:4000/admin,点击setting进行用户名和用户密码设置，看到</a><br>Hexo admin can be secured with a password. setup authentification here.双击setup authentification here填写用户名和密码，出现下面一串代码，全部copy到hexo根目录下的config.yml代码下</p>
-<pre><code>
+<pre class="language-none"><code class="language-none">
  admin
 admin:
   username: ******
-  password_hash: XwsRbx4gZl8myLbI6/oV4T4TxSSxF.
-  secret: ******
-</code></pre>
+  password_hash: XwsRbx4gZl8myLbI6&#x2F;oV4T4TxSSxF.
+  secret: ******</code></pre>
 <p>  最后</p>
-<pre><code>hexo clean
+  <pre class="language-none"><code class="language-none">hexo clean
 hexo g
-hexo d
-</code></pre>
+hexo d</code></pre>
 <p>  ok!完事
   </p>
 

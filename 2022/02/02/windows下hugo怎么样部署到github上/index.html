@@ -618,7 +618,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    127
+                    131
                 </div>
                 
 
@@ -640,21 +640,28 @@
         <hr class="clearfix">
 
         
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
         <div class="card-content article-card-content">
             <div id="articleContent">
                 <p>一直以来，老是记不住hugo部署到github上的几句命令，没有hexo简单的两句命令来得省事。</p>
-<h2 id="进入public文件夹"><a href="#进入public文件夹" class="headerlink" title="进入public文件夹"></a>进入public文件夹</h2><pre><code>cd public
+<h2 id="进入public文件夹"><a href="#进入public文件夹" class="headerlink" title="进入public文件夹"></a>进入public文件夹</h2><pre class="language-none"><code class="language-none">cd public
 </code></pre>
-<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><pre><code>git init
+
+<h2 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h2><pre class="language-none"><code class="language-none">git init
 </code></pre>
-<h2 id="添加public中的所有文件"><a href="#添加public中的所有文件" class="headerlink" title="添加public中的所有文件"></a>添加public中的所有文件</h2><pre><code>git add 
+
+<h2 id="添加public中的所有文件"><a href="#添加public中的所有文件" class="headerlink" title="添加public中的所有文件"></a>添加public中的所有文件</h2><pre class="language-none"><code class="language-none">git add 
 </code></pre>
-<h2 id="提交描述，XXXX中是你这次提交的描述，可以随便写"><a href="#提交描述，XXXX中是你这次提交的描述，可以随便写" class="headerlink" title="提交描述，XXXX中是你这次提交的描述，可以随便写"></a>提交描述，XXXX中是你这次提交的描述，可以随便写</h2><pre><code>git commit -m &quot;XXXXXXXX&quot;
+
+<h2 id="提交描述，XXXX中是你这次提交的描述，可以随便写"><a href="#提交描述，XXXX中是你这次提交的描述，可以随便写" class="headerlink" title="提交描述，XXXX中是你这次提交的描述，可以随便写"></a>提交描述，XXXX中是你这次提交的描述，可以随便写</h2><pre class="language-none"><code class="language-none">git commit -m &quot;XXXXXXXX&quot;
 </code></pre>
-<h2 id="链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀-git"><a href="#链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀-git" class="headerlink" title="链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀.git"></a>链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀.git</h2><pre><code>git remote add origin https://github.com/XXXXX/XXXXX.github.io.git
+
+<h2 id="链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀-git"><a href="#链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀-git" class="headerlink" title="链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀.git"></a>链接到远端，把XXXX替换成自己的内容，不要忘了还有后缀.git</h2><pre class="language-none"><code class="language-none">git remote add origin https:&#x2F;&#x2F;github.com&#x2F;XXXXX&#x2F;XXXXX.github.io.git
 
 git pull origin master
 
