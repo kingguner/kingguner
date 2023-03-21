@@ -86,14 +86,7 @@
   </url>
   
   <url>
-    <loc>https://liuzhaobin.top/2022/02/02/Microsoft%20store%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
-    
-    <lastmod>2020-05-24</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liuzhaobin.top/2020/05/11/Windows%E5%AD%90%E7%B3%BB%E7%BB%9F%E4%B8%8B%E5%AE%89%E8%A3%85Ubuntu/</loc>
+    <loc>https://liuzhaobin.top/2020/04/06/hexo-admin/</loc>
     
     <lastmod>2020-05-24</lastmod>
     
@@ -107,14 +100,21 @@
   </url>
   
   <url>
-    <loc>https://liuzhaobin.top/2020/04/13/%E4%B8%A4%E4%B8%AA%E9%82%AE%E7%AE%B1%E9%85%8D%E7%BD%AE%E4%B8%A4%E4%B8%AASSH/</loc>
+    <loc>https://liuzhaobin.top/2020/05/11/Windows%E5%AD%90%E7%B3%BB%E7%BB%9F%E4%B8%8B%E5%AE%89%E8%A3%85Ubuntu/</loc>
     
     <lastmod>2020-05-24</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liuzhaobin.top/2020/04/06/hexo-admin/</loc>
+    <loc>https://liuzhaobin.top/2022/02/02/Microsoft%20store%E6%97%A0%E6%B3%95%E6%89%93%E5%BC%80%E7%9A%84%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/</loc>
+    
+    <lastmod>2020-05-24</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liuzhaobin.top/2020/04/13/%E4%B8%A4%E4%B8%AA%E9%82%AE%E7%AE%B1%E9%85%8D%E7%BD%AE%E4%B8%A4%E4%B8%AASSH/</loc>
     
     <lastmod>2020-05-24</lastmod>
     
@@ -130,14 +130,14 @@
 
   
   <url>
-    <loc>https://liuzhaobin.top/tags/github/</loc>
+    <loc>https://liuzhaobin.top/tags/Ubuntu/</loc>
     <lastmod>2023-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://liuzhaobin.top/tags/Ubuntu/</loc>
+    <loc>https://liuzhaobin.top/tags/github/</loc>
     <lastmod>2023-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
