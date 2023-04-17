@@ -6,7 +6,7 @@
   <link href="https://liuzhaobin.top/atom.xml" rel="self"/>
   
   <link href="https://liuzhaobin.top/"/>
-  <updated>2023-04-17T15:20:51.472Z</updated>
+  <updated>2023-04-17T15:28:14.629Z</updated>
   <id>https://liuzhaobin.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>外刊中有哪些地道的写作句型？(2)</title>
+    <link href="https://liuzhaobin.top/2023/04/17/%E5%A4%96%E5%88%8A%E4%B8%AD%E6%9C%89%E5%93%AA%E4%BA%9B%E5%9C%B0%E9%81%93%E7%9A%84%E5%86%99%E4%BD%9C%E5%8F%A5%E5%9E%8B%EF%BC%882%EF%BC%89/"/>
+    <id>https://liuzhaobin.top/2023/04/17/%E5%A4%96%E5%88%8A%E4%B8%AD%E6%9C%89%E5%93%AA%E4%BA%9B%E5%9C%B0%E9%81%93%E7%9A%84%E5%86%99%E4%BD%9C%E5%8F%A5%E5%9E%8B%EF%BC%882%EF%BC%89/</id>
+    <published>2023-04-17T15:23:20.327Z</published>
+    <updated>2023-04-17T15:28:14.629Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="language-none"><code class="language-none">一、Where there be..., there be...</code></pre><p>Where there are cell towers, there are teens living their lives on their smartphone.<br>有手机基站的地方，就有青少年整日泡在手机上。</p><p>Where there are beaches, there are tourists soaking up the sun and playing in the waves.<br>有海滩的地方，就有游客沐浴在阳光下、玩耍在海浪中。</p><p>Where there are electric cars, there are people looking for charging stations to keep their vehicles powered up.<br>有电动汽车的地方，就会有人寻找充电桩来给他们的汽车充电。</p><p>Where there are e-commerce websites, there are people shopping online and having their purchases delivered to their doorstep.<br>哪里有电商网站，哪里就有人在线购物并送货上门。</p><pre class="language-none"><code class="language-none">二、it&#39;s not to do, but (rather) to do</code></pre><p>The aim of studying history is not to idealize the past, but to learn from it and understand how it shapes our present. Some historical events have positive impacts, some negative, and many have both.<br>研究历史的目的不在于将过去理想化，而是从中学习并理解它如何塑造我们的现在。一些历史事件产生了积极的影响，一些则是负面的，还有许多既有积极又有消极的影响。</p><p>The purpose of the #MeToo movement is not to demonize all men or to erase due process, but to address the pervasive issue of sexual harassment and assault in our society. While there are certainly challenges and debates, progress has been made in raising awareness and holding perpetrators accountable.<br>#MeToo 运动的目的并非将所有男性妖魔化或抹杀正当程序，而是解决我们社会中普遍存在的性骚扰和性侵问题。虽然仍面临挑战和争议，但人们已经取得进展，提高了意识，将加害者绳之以法。<br>perpetrator 指 a person who commits a crime 犯罪者。<br>hold sb accountable 意思是“将某人绳之以法、使某人对某事负责”。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;pre class=&quot;language-none&quot;&gt;&lt;code class=&quot;language-none&quot;&gt;一、Where there be..., there be...&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Where there are cell towers, there </summary>
+      
+    
+    
+    
+    <category term="学习天地" scheme="https://liuzhaobin.top/categories/%E5%AD%A6%E4%B9%A0%E5%A4%A9%E5%9C%B0/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>《经济学人》中有哪些地道的写作句型？丨开头模板丨原因分析丨英语写作</title>
@@ -211,7 +235,7 @@
     <published>2020-04-12T16:40:00.000Z</published>
     <updated>2020-05-24T20:49:10.000Z</updated>
     
-    <content type="html"><![CDATA[<p>一般来说,一台电脑上配置两个SSH密钥是很正常的嘛，两个邮箱对应两个SSH.<br>假设原来在C盘中/Users/xxx/.ssh目录下已经生成了一个密钥对：</p><pre class="language-none"><code class="language-none">id_rsaid_rsa.pub</code></pre><p>生成第二个key<br>接下来我们生成第二个ssh key：</p><p>ssh-keygen -t rsa -c “<a href="mailto:&#121;&#111;&#x75;&#x72;&#109;&#x61;&#105;&#108;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;">&#121;&#111;&#x75;&#x72;&#109;&#x61;&#105;&#108;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#111;&#x6d;</a>“<br>这里不要一路回车，我们自己手动填写保存路径：</p><p>Generating public/private rsa key pair.<br>Enter file in which to save the key (/c/Users/xxx/.ssh/id_rsa): /c/Users/xxx/.ssh/id_rsa_github<br>再按回车三次<br>这时我们返回电脑的C盘/Users/xxx/下id_rsa_github来区别原id_rsa。<br><img src="https://raw.githubusercontent.com/tivenny/pic/master/uklwigSl3n.png" alt="图1"></p><p>完成之后，我们可以看到~/.ssh目录下多了两个文件，变成：</p><pre class="language-none"><code class="language-none">id_rsaid_ras.pubid_rsa_githubid_rsa_github.pubknown_hosts</code></pre><p>然后到[github](<a href="https://github.com/%EF%BC%89">https://github.com/）</a> 上登陆自己的github帐号，点击右上角图像向下箭头，找到setting,进入找到ssh and GPG keys,如下两图所示，把C盘/Users/xxx/里的github_rsa.pub以记事本的方式打开，把里面的代码copy到下图的红框框中。</p><p><img src="https://raw.githubusercontent.com/tivenny/pic/master/QQ%E5%9B%BE%E7%89%8720200412182803.png" alt="图2"></p><p><img src="https://raw.githubusercontent.com/tivenny/pic/master/InkedQQ%E6%88%AA%E5%9B%BE20200412182432_LI.jpg" alt="图3"><br>ok! 完事</p>]]></content>
+    <content type="html"><![CDATA[<p>一般来说,一台电脑上配置两个SSH密钥是很正常的嘛，两个邮箱对应两个SSH.<br>假设原来在C盘中/Users/xxx/.ssh目录下已经生成了一个密钥对：</p><pre class="language-none"><code class="language-none">id_rsaid_rsa.pub</code></pre><p>生成第二个key<br>接下来我们生成第二个ssh key：</p><p>ssh-keygen -t rsa -c “<a href="mailto:&#x79;&#111;&#x75;&#x72;&#109;&#x61;&#x69;&#108;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">&#x79;&#111;&#x75;&#x72;&#109;&#x61;&#x69;&#108;&#x40;&#x67;&#109;&#97;&#105;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;</a>“<br>这里不要一路回车，我们自己手动填写保存路径：</p><p>Generating public/private rsa key pair.<br>Enter file in which to save the key (/c/Users/xxx/.ssh/id_rsa): /c/Users/xxx/.ssh/id_rsa_github<br>再按回车三次<br>这时我们返回电脑的C盘/Users/xxx/下id_rsa_github来区别原id_rsa。<br><img src="https://raw.githubusercontent.com/tivenny/pic/master/uklwigSl3n.png" alt="图1"></p><p>完成之后，我们可以看到~/.ssh目录下多了两个文件，变成：</p><pre class="language-none"><code class="language-none">id_rsaid_ras.pubid_rsa_githubid_rsa_github.pubknown_hosts</code></pre><p>然后到[github](<a href="https://github.com/%EF%BC%89">https://github.com/）</a> 上登陆自己的github帐号，点击右上角图像向下箭头，找到setting,进入找到ssh and GPG keys,如下两图所示，把C盘/Users/xxx/里的github_rsa.pub以记事本的方式打开，把里面的代码copy到下图的红框框中。</p><p><img src="https://raw.githubusercontent.com/tivenny/pic/master/QQ%E5%9B%BE%E7%89%8720200412182803.png" alt="图2"></p><p><img src="https://raw.githubusercontent.com/tivenny/pic/master/InkedQQ%E6%88%AA%E5%9B%BE20200412182432_LI.jpg" alt="图3"><br>ok! 完事</p>]]></content>
     
     
       
