@@ -1,8 +1,8 @@
 ---
-title: 工具箱
+title: 我的newbing
 date: 2020-04-16 22:15:20
-type: box
+type: newbing
 toc: true
-layout: "box"
+layout: "newbing"
 
 ---
